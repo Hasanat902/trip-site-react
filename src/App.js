@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import TopBar from './components/TopBar';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <TopBar></TopBar>
       <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   );
 }
