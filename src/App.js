@@ -3,6 +3,7 @@ import Activities from './components/Activities';
 import Banner from './components/Banner';
 import Booking from './components/Booking';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Navbar from './components/Navbar';
 import TopBar from './components/TopBar';
@@ -17,6 +18,7 @@ function App() {
       <Booking></Booking>
       <Gallery></Gallery>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }
